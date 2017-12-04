@@ -300,10 +300,21 @@ footer{
 		margin: 0 auto;
 	}
 
+	.instagram-boxes{
+		width: 100%;
+
+	}
+
 	.instagram-box{
 		margin:  5px;
 		width: 135px;
 		height: 135px;
+	}
+
+	.instagram .sidebar-contents{
+		width: 435px;
+		min-width: 40%;
+		margin: 0 auto;
 	}
 
 	.instagram-box:nth-child(odd){
@@ -314,3 +325,17 @@ footer{
 		font-size: 12px;
 	}
 }
+
+@media screen and (max-width: 480px){
+	.blog-image{
+		width: 135px;
+		height: 135px;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.instagram .sidebar-contents{
+		width: 290px;
+	}
+
+	}
